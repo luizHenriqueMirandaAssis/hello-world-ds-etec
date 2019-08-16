@@ -1,8 +1,7 @@
 # hello-world-ds-etec 
 
 ## Curso: Técnico em desenvolvimento de sistema (2º módulo)
-#### Projeto utilizado em sala de aula na Etec de Bebedouro
-- Introdução React
+### Projeto utilizado em sala de aula na Etec de Bebedouro (Introdução React)
 
 ## Preparação do ambiente
 - Instalação do Node (https://nodejs.org/en/download/)
