@@ -1,15 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Home from './home'
+import HelloWorld from './HelloWorld'
+import HelloWorldWithProps from './HelloWorldWithProps'
+import HelloWorldWithState from './HelloWorldWithState'
 
 function App() {
   return (
-      <div>
-        <Home nome="Naruto"  />
-        <Home nome="Renato"  />
-        <Home nome="Sabrino" />
-        <Home nome="Betolino"/>
+      <div>       
+          <h1>Hello World Padrão</h1>
+          <HelloWorld/>
+
+          <h1>Hello World Com Props (Propriedades)</h1>
+          <HelloWorldWithProps name="Aula" message="Muito Boa!!"/>
+
+          <h1>Hello World Com State</h1>
+          <HelloWorldWithState name="Aula" message="Boa Noite"/>        
       </div>
   );
 }
